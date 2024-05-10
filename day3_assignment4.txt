@@ -1,0 +1,34 @@
+ Q1
+mkdir ass1
+ cd ass1
+  git init
+   touch a.txt
+   vi a.txt
+....
+read n
+if [ $n -eq 1]
+  echo regex
+elif [ $n -eq 2]
+ date
+elif [ $n -eq 3]
+ whoami
+ elif [ $n -eq 4]
+youtube-dl https://youtu.be/8nomGzgzWaA?si=nMgzEeJpKY7DH_Xd
+ 
+else
+
+echo invalid
+fi
+...
+sh a.txt
+
+
+
+Q2
+mkdir regex
+chmod g+rwx regex
+   ls -lh
+   cd regex
+  chmod go-w adithya.txt
+  chmod go-w aman.txt
+   ls -lh 

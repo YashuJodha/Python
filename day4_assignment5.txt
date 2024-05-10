@@ -1,0 +1,36 @@
+Q1
+
+x=int(input("enter unit"))
+
+if (x<=10):
+    print("price is : ",10*50)
+
+elif (x<=30):
+    print("price is : ",(x-10)*(20)+(10*50))
+
+else:
+    print("price is : ",(10*50)+(20*20)+(x-30)*(10))
+
+Q2
+
+x=int(input("1side : "))
+y=int(input("2side : "))
+z=int(input("3side : "))
+
+if (x+y)>z and (y+z)>x and (x+z)>y:
+    print("x ,y and z can make a triangle")
+
+else:
+    print("x , y and z can't make a triangle")
+
+
+Q3
+
+x=int(input("1st no : "))
+y=int(input("2st no : "))
+
+if(x%6==0 and y%6==0):
+    print("both no. are divisible by 6")
+
+else:
+    print("both no. aren't divisible by 6")

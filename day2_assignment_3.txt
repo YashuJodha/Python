@@ -1,0 +1,41 @@
+Question 1
+    1  ls
+    2  rm -rf *
+    3  mkdir aman
+    4  rm -rf *
+    5  ls
+    6  mkdir aman
+    7  cd aman
+    8  touch file{1..200}.txt
+    9  ls
+   10  rm file{1..100}.txt
+   11  ls
+   12  rm file{101..107}.txt
+   13  ls
+   14  cd ..
+   15  mkdir aditya
+   16  cp /home/yashrajsrathore2004/aman/file{108..200}.txt /home/yashrajsrathore2004/aditya/
+   17  ls
+   18  cd aditya 
+   19  ls
+   20  cd ..
+   21  cp /home/yashrajsrathore2004/aman/ /home/yashrajsrathore2004/aditya/
+   22  cd aditya
+   23  ls
+   24  cp /home/yashrajsrathore2004/aman /home/yashrajsrathore2004/aditya/
+   25  cp -rv /home/yashrajsrathore2004/aditya/
+   26  cp -rv aman /home/yashrajsrathore2004/aditya/
+   27  cd ..
+   28  cp -rv aman /home/yashrajsrathore2004/aditya/
+   29  cd aditya
+   30  ls
+   31  cd aman
+   32  ls
+   33  cd ..
+
+Question 2
+       mkdir -p /home/yashrajsrathore2004/desktop/def/xyz
+       ls
+
+Question 3
+       
